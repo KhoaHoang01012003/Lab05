@@ -7,5 +7,17 @@
     <Compile Update="Bai2.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Bai3_Inbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Bai3_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Bai3_sendmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

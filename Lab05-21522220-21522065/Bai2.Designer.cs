@@ -136,14 +136,14 @@
             Email.HeaderText = "Email";
             Email.MinimumWidth = 6;
             Email.Name = "Email";
-            Email.Width = 125;
+            Email.Width = 400;
             // 
             // From
             // 
             From.HeaderText = "From";
             From.MinimumWidth = 6;
             From.Name = "From";
-            From.Width = 125;
+            From.Width = 200;
             // 
             // Time
             // 

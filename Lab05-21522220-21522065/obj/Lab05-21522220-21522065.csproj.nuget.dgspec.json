@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\LAP TRINH MANG CAN BAN\\Lab05-21522220-21522065\\Lab05-21522220-21522065.csproj": {}
+    "D:\\LAP TRINH MANG CAN BAN\\Lab05\\Lab05-21522220-21522065\\Lab05-21522220-21522065.csproj": {}
   },
   "projects": {
-    "D:\\LAP TRINH MANG CAN BAN\\Lab05-21522220-21522065\\Lab05-21522220-21522065.csproj": {
+    "D:\\LAP TRINH MANG CAN BAN\\Lab05\\Lab05-21522220-21522065\\Lab05-21522220-21522065.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LAP TRINH MANG CAN BAN\\Lab05-21522220-21522065\\Lab05-21522220-21522065.csproj",
+        "projectUniqueName": "D:\\LAP TRINH MANG CAN BAN\\Lab05\\Lab05-21522220-21522065\\Lab05-21522220-21522065.csproj",
         "projectName": "Lab05-21522220-21522065",
-        "projectPath": "D:\\LAP TRINH MANG CAN BAN\\Lab05-21522220-21522065\\Lab05-21522220-21522065.csproj",
+        "projectPath": "D:\\LAP TRINH MANG CAN BAN\\Lab05\\Lab05-21522220-21522065\\Lab05-21522220-21522065.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\LAP TRINH MANG CAN BAN\\Lab05-21522220-21522065\\obj\\",
+        "outputPath": "D:\\LAP TRINH MANG CAN BAN\\Lab05\\Lab05-21522220-21522065\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,9 +45,21 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "dependencies": {
+            "Azure.Core": {
+              "target": "Package",
+              "version": "[1.33.0, )"
+            },
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.16.0, )"
+            },
             "MailKit": {
               "target": "Package",
               "version": "[4.1.0, )"
+            },
+            "Microsoft.Azure.Amqp": {
+              "target": "Package",
+              "version": "[2.6.2, )"
             }
           },
           "imports": [

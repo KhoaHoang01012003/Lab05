@@ -11,7 +11,7 @@ namespace Lab05_21522220_21522065
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Bai2());
+            Application.Run(new Menu());
         }
     }
 }
